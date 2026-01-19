@@ -8,7 +8,6 @@ This repository contains the implementation of our proposed framework for visual
   * **`experiments/`**: Source code for running the baseline neural models and our proposed neuro-symbolic experiments.
   * **`reasoningEngine/`**: The symbolic module that references based on the 2PTL (Two-Point Temporal Logic) logic and Horn clause definitions.
   * **`scene_generation/`**: Scripts for generating the Aggregated Scene Description (ASD) from raw inputs.
-  * **`evaluation_instruction.docx`**: detailed definitions of the metrics used for human and automatic evaluation.
   * **`vocabulary.json`**: Definition of the closed ontology used for symbolic reasoning.
 
 ### Running Experiments
