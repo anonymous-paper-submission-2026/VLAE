@@ -1,0 +1,149 @@
+{
+    "road user": {
+        "vehicle": [
+            "car",
+            "van"
+        ],
+        "large_vehicle": [
+            "bus",
+            "truck"
+        ],
+        "vulnerable_road_user": [
+            "cyclist",
+            "motorcyclist",
+            "pedestrian",
+            "scooter"
+        ]
+    },
+    "preposition": [
+        "is",
+        "are",
+        "on",
+        "being",
+        "exist",
+        "passing",
+        "approaching",
+        "in",
+        "has",
+        "at"
+    ],
+    "control_device": [
+        "traffic_light",
+        "no_overtaking_sign",
+        "stop_sign",
+        "road_works_ahead_sign",
+        "speed_limit_sign"
+    ],
+    "road_features": [
+        "junction",
+        "crossing",
+        "traffic_calming_measures",
+        "bus_lane",
+        "tram_lane",
+        "cycle_lane",
+        "box_junction",
+        "road_work",
+        "narrowed_road",
+        "buildup_area",
+        "double_white_lanes",
+        "solid_white_lanes",
+        "advanced_stop_line",
+        "motorway",
+        "busy_road",
+        "zig-zag_lines",
+        "broken_white_line",
+        "traffic_calming_measures",
+        "residential_area",
+        "tram_stop",
+        "pavement",
+        "exit_road"
+    ],
+    "other_features": [
+        "oncoming_traffic",
+        "suitable_gap"
+    ],
+    "road_user_position": [
+        "same_lane_front_of",
+        "left_lane",
+        "right_lane_same_direction",
+        "right_lane_oncoming_direction",
+        "in_front_of",
+        "left_sidewalk",
+        "right_sidewalk"
+    ],
+    "status": {
+        "road_user_status": [
+            "stopped",
+            "moving_forward",
+            "invisible",
+            "overtake_ego",
+            "overtaken",
+            "walk_away",
+            "going_straight",
+            "not_begin_overtake_ego",
+            "to_pedestrain_crossing"
+        ],
+        "control_device_status": [
+            "red",
+            "green",
+            "amber",
+            "exist"
+        ],
+        "features_device_status": [
+            "exist",
+            "nearby",
+            "clear",
+            "marked_by_solid_white_line",
+            "marked_by_broken_white_line"
+        ]
+    },
+    "ego_intention": [
+        "moving_forward",
+        "turn_left",
+        "turn_right",
+        "stop",
+        "park",
+        "change_lane"
+    ],
+    "ego_situation": [
+        "(at, junction)",
+        "(at, box_junction)",
+        "(is, turn_right)",
+        "(is, turn_left)",
+        "(being, overtaken)",
+        "(enter, bus_lane)",
+        "(enter, tram_lane)",
+        "(enter, cycle_lane)",
+        "(approaching, crossing)",
+        "(approaching, pedestrains)",
+        "(approaching, vunerable_road_user)",
+        "(approaching, traffic_calming_measures)",
+        "(approaching, road_work)",
+        "(approaching, narrowed_road)",
+        "(approaching, pavement)",
+        "(passing, crossing)",
+        "(passing, pedestrains)",
+        "(passing, parked_vehicles)",
+        "(passing, road_work)",
+        "(passing, tram_stop)",
+        "(passing, bus_stop)",
+        "(in, buildup_area)",
+        "(enough_gap, exit)",
+        "(has, no_sufficient_gap)",
+        "(cross, double_white_lines)",
+        "(cross, solid_white_lanes)",
+        "(on, left_lane)",
+        "(on, motorway)",
+        "(on, crossing)",
+        "(in, busy_road)",
+        "(is, in_icy_or_snowy_weather)",
+        "(is, on_icy_road)",
+        "(in, residential_area)",
+        "(turning, at_junction)",
+        "(is, reversing)",
+        "(has, crossed_first_white_line)",
+        "(has, crossed_white_line)",
+        "(has, not_crossed_white_line)",
+        "(very_close_to, white_line)"
+    ]
+}
