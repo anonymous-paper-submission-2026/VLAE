@@ -1,0 +1,583 @@
+[
+    {
+        "id": 1,
+        "UKRuleid": "Rule 124",
+        "action": "not_exceed_speed_limit",
+        "conditions": [
+            "speed_limit_marking, status, exist"
+        ]
+    },
+    {
+        "id": 2,
+        "UKRuleid": "Rule 109",
+        "action": "stop_behind_white_line",
+        "conditions": [
+            "traffic_light, status, red"
+        ]
+    },
+    {
+        "id": 3,
+        "UKRuleid": "Rule 171",
+        "action": "stop_at_white_line",
+        "conditions": [
+            "ego, at, junction",
+            "stop_sign, status, exist"
+        ]
+    },
+    {
+        "id": 4,
+        "UKRuleid": "Rule H2, 204",
+        "action": "drive_carefully_and_slowly",
+        "conditions": [
+            "ego, approaching, vulnerable_road_user",
+            "vulnerable_road_user, same_lane_front_relevant, ego"
+        ]
+    },
+    {
+        "id": 5,
+        "UKRuleid": "Rule H3, 170",
+        "action": "give_way_to_vulnerable_road_users",
+        "conditions": [
+            "ego, at, junction",
+            "vulnerable_road_users, main_road_perpendicular_direction, going_straight",
+            "ego, intend, turn"
+        ]
+    },
+    {
+        "id": 6,
+        "UKRuleid": "Rule H2, 195",
+        "action": "give_way_to_vulnerable_road_users",
+        "conditions": [
+            "ego, approaching, crossing",
+            "vulnerable_road_user, status, is_crossing"
+        ]
+    },
+    {
+        "id": 7,
+        "UKRuleid": "Rule H2, 195",
+        "action": "give_way_to_vulnerable_road_users",
+        "conditions": [
+            "ego, approaching, crossing",
+            "vulnerable_road_user, status, waiting_to_cross"
+        ]
+    },
+    {
+        "id": 8,
+        "UKRuleid": "Rule H2",
+        "action": "give_way_to_vulnerable_road_users",
+        "conditions": [
+            "road_user, status, going_straight",
+            "ego, intend, change_lane"
+        ]
+    },
+    {
+        "id": 9,
+        "UKRuleid": "Rule 129",
+        "action": "cannot_overtake",
+        "conditions": [
+            "ego, cross, double_white_lines"
+        ]
+    },
+    {
+        "id": 10,
+        "UKRuleid": "Rule 129",
+        "action": "cannot_overtake",
+        "conditions": [
+            "ego, cross, solid_white_line"
+        ]
+    },
+    {
+        "id": 11,
+        "UKRuleid": "Rule 126",
+        "action": "keep_safe_distance",
+        "conditions": [
+            "road_user, same_lane_front_relevant, ego"
+        ]
+    },
+    {
+        "id": 12,
+        "UKRuleid": "Rule 172",
+        "action": "give_way",
+        "conditions": [
+            "ego, at, junction",
+            "give_way_sign, status, exist"
+        ]
+    },
+    {
+        "id": 13,
+        "UKRuleid": "Rule 172",
+        "action": "give_way_to_traffic_on_main_road",
+        "conditions": [
+            "ego, at, junction",
+            "road_user, main_road_perpendicular_direction, ego"
+        ]
+    },
+    {
+        "id": 14,
+        "UKRuleid": "Rule 109",
+        "action": "stop_behind_white_line",
+        "conditions": [
+            "traffic_light, status, amber",
+            "ego, has_not_crossed, white_line"
+        ]
+    },
+    {
+        "id": 15,
+        "UKRuleid": "Rule 109",
+        "action": "proceed",
+        "conditions": [
+            "traffic_light, status, amber",
+            "ego, has_crossed, white_line"
+        ]
+    },
+    {
+        "id": 16,
+        "UKRuleid": "Rule 109",
+        "action": "proceed",
+        "conditions": [
+            "traffic_light, status, amber",
+            "ego, very_close_to, white_line"
+        ]
+    },
+    {
+        "id": 17,
+        "UKRuleid": "Rule 109",
+        "action": "proceed",
+        "conditions": [
+            "traffic_light, status, green"
+        ]
+    },
+    {
+        "id": 18,
+        "UKRuleid": "Rule 177",
+        "action": "proceed",
+        "conditions": [
+            "traffic_filter_arrow_straight, status, green",
+            "ego, at, junction",
+            "ego, intend, moving_forward"
+        ]
+    },
+    {
+        "id": 19,
+        "UKRuleid": "Rule 177",
+        "action": "proceed_to_turn_left",
+        "conditions": [
+            "traffic_filter_arrow_left, status, green",
+            "ego, at, junction",
+            "ego, intend, turn_left"
+        ]
+    },
+    {
+        "id": 20,
+        "UKRuleid": "Rule 177",
+        "action": "proceed_to_turn_right",
+        "conditions": [
+            "traffic_filter_arrow_right, status, green",
+            "ego, at junction",
+            "ego, intend, turn_right"
+        ]
+    },
+    {
+        "id": 21,
+        "UKRuleid": "Rule 160, 205",
+        "action": "wait_for_suitable_gap_before_move_off, watch_out_for_vulnerable_road_users",
+        "conditions": [
+            "ego, at, junction",
+            "ego, is, stopped"
+        ]
+    },
+    {
+        "id": 22,
+        "UKRuleid": "Rule 174",
+        "action": "enter_box_junction",
+        "conditions": [
+            "ego, approaching, box_junction",
+            "exit_road, status, clear"
+        ]
+    },
+    {
+        "id": 23,
+        "UKRuleid": "Rule 174",
+        "action": "not_enter_box_junction",
+        "conditions": [
+            "ego, is, turn_right",
+            "oncoming_traffic, status, exist"
+        ]
+    },
+    {
+        "id": 24,
+        "UKRuleid": "Rule 174",
+        "action": "not_enter_box_junction",
+        "conditions": [
+            "ego, is, turn_right",
+            "vehicle, status, turn_right"
+        ]
+    },
+    {
+        "id": 25,
+        "UKRuleid": "Road Sign Rules",
+        "action": "cannot_overtake",
+        "conditions": [
+            "no_overtaking_sign, status, exist"
+        ]
+    },
+    {
+        "id": 26,
+        "UKRuleid": "Rule 165, 191",
+        "action": "cannot_overtake",
+        "conditions": [
+            "ego, intend, overtake",
+            "nearest_vehicle, status, at_pedestrain_crossing"
+        ]
+    },
+    {
+        "id": 27,
+        "UKRuleid": "Rule 167",
+        "action": "cannot_overtake, maintain_speed",
+        "conditions": [
+            "ego, being, overtaken"
+        ]
+    },
+    {
+        "id": 28,
+        "UKRuleid": "Rule 141",
+        "action": "cannot_overtake",
+        "conditions": [
+            "ego, enter, bus_lane"
+        ]
+    },
+    {
+        "id": 29,
+        "UKRuleid": "Rule 301",
+        "action": "cannot_overtake",
+        "conditions": [
+            "ego, enter, tram_lane"
+        ]
+    },
+    {
+        "id": 30,
+        "UKRuleid": "Rule 140",
+        "action": "cannot_overtake",
+        "conditions": [
+            "ego, enter, cycle_lane"
+        ]
+    },
+    {
+        "id": 31,
+        "UKRuleid": "Rule 163",
+        "action": "cannot_overtake",
+        "conditions": [
+            "ego, on, left_lane"
+        ]
+    },
+    {
+        "id": 32,
+        "UKRuleid": "Rule 163",
+        "action": "cannot_overtake",
+        "conditions": [
+            "ego, has, no_sufficient_gap"
+        ]
+    },
+    {
+        "id": 33,
+        "UKRuleid": "Rule 103",
+        "action": "give_signal",
+        "conditions": [
+            "ego, intend, change_lane"
+        ]
+    },
+    {
+        "id": 34,
+        "UKRuleid": "Rule 162",
+        "action": "give_signal, overtake_on_left",
+        "conditions": [
+            "ego, intend, overtake"
+        ]
+    },
+    {
+        "id": 35,
+        "UKRuleid": "Rule 163",
+        "action": "can_overtake",
+        "conditions": [
+            "ego, intend, overtake",
+            "lane, status, clear"
+        ]
+    },
+    {
+        "id": 36,
+        "UKRuleid": "Rule 163",
+        "action": "can_overtake",
+        "conditions": [
+            "ego, intend, overtake",
+            "road, status, clear",
+            "road_users, status, not_begin_overtake_ego",
+            "suitable_gap, in_front_of, road_user_you_plan_to_overtake"
+        ]
+    },
+    {
+        "id": 37,
+        "UKRuleid": "Rule 178",
+        "action": "stop_at_first_white_line",
+        "conditions": [
+            "advanced_stop_line, status, exist",
+            "traffic_light, status, amber"
+        ]
+    },
+    {
+        "id": 38,
+        "UKRuleid": "Rule 178",
+        "action": "stop_at_first_white_line",
+        "conditions": [
+            "advanced_stop_line, status, exist",
+            "traffic_light, status, red"
+        ]
+    },
+    {
+        "id": 39,
+        "UKRuleid": "Rule 178",
+        "action": "stop_at_second_white_line",
+        "conditions": [
+            "advanced_stop_line, status, exist",
+            "ego, has_crossed, first_white_line",
+            "traffic_light, status, red"
+        ]
+    },
+    {
+        "id": 40,
+        "UKRuleid": "Rule H3, 179",
+        "action": "give_signal, wait_for_suitable_gap_before_move_off, watch_out_for_vulnerable_road_users",
+        "conditions": [
+            "ego, intend, turn"
+        ]
+    },
+    {
+        "id": 41,
+        "UKRuleid": "Rule 264",
+        "action": "must_not_reverse",
+        "conditions": [
+            "ego, on, motorway"
+        ]
+    },
+    {
+        "id": 42,
+        "UKRuleid": "Rule 203",
+        "action": "must_not_reverse",
+        "conditions": [
+            "ego, in, busy_road"
+        ]
+    },
+    {
+        "id": 43,
+        "UKRuleid": "Rule 191",
+        "action": "cannot_park_on_zig-zag lines",
+        "conditions": [
+            "zig-zag_lines, are, nearby"
+        ]
+    },
+    {
+        "id": 44,
+        "UKRuleid": "Rule 289",
+        "action": "not_switch_lanes, not_overtake, take_extra_care_on_vulnerable",
+        "conditions": [
+            "road_works_ahead_sign, is, exist"
+        ]
+    },
+    {
+        "id": 45,
+        "UKRuleid": "Rule 140",
+        "action": "not_drive_or_park_in_cycle_lane",
+        "conditions": [
+            "cycle_lane, status, marked_by_solid_white_line"
+        ]
+    },
+    {
+        "id": 46,
+        "UKRuleid": "Rule 140",
+        "action": "not_drive_or_park_in_cycle_lane",
+        "conditions": [
+            "cycle_lane, status, marked_by_broken_white_line",
+            "ego, is, NOT_unavoidable"
+        ]
+    },
+    {
+        "id": 47,
+        "UKRuleid": "Rule 153",
+        "action": "slow_down_and_not_overtaking",
+        "conditions": [
+            "ego, approaching, traffic_calming_measures"
+        ]
+    },
+    {
+        "id": 48,
+        "UKRuleid": "Rule 227",
+        "action": "keep_longer_distance",
+        "conditions": [
+            "ego, is, in_icy_or_snowy_weather"
+        ]
+    },
+    {
+        "id": 49,
+        "UKRuleid": "Rule 229",
+        "action": "drive_at_slow speed_brake_and_accelerate_gently",
+        "conditions": [
+            "ego, is, on_icy_road"
+        ]
+    },
+    {
+        "id": 50,
+        "UKRuleid": "Rule 207",
+        "action": "drive_carefully_and_slowly",
+        "conditions": [
+            "ego, in, residential_area"
+        ]
+    },
+    {
+        "id": 51,
+        "UKRuleid": "Rule 304",
+        "action": "drive_carefully_and_slowly",
+        "conditions": [
+            "ego, passing, tram_stop"
+        ]
+    },
+    {
+        "id": 52,
+        "UKRuleid": "Rule 223",
+        "action": "drive_carefully_and_slowly",
+        "conditions": [
+            "ego, passing, bus_stop"
+        ]
+    },
+    {
+        "id": 53,
+        "UKRuleid": "Rule 213",
+        "action": "drive_carefully_and_slowly",
+        "conditions": [
+            "ego, passing, parked_vehicles"
+        ]
+    },
+    {
+        "id": 54,
+        "UKRuleid": "Rule 289",
+        "action": "drive_carefully_and_slowly",
+        "conditions": [
+            "ego, passing, road_work"
+        ]
+    },
+    {
+        "id": 55,
+        "UKRuleid": "Rule 205",
+        "action": "drive_carefully_and_slowly",
+        "conditions": [
+            "ego, approaching, pedestrians"
+        ]
+    },
+    {
+        "id": 56,
+        "UKRuleid": "Rule 205",
+        "action": "drive_carefully_and_slowly",
+        "conditions": [
+            "ego, approaching, pavement"
+        ]
+    },
+    {
+        "id": 57,
+        "UKRuleid": "Rule H2, 195",
+        "action": "drive_carefully_and_slowly",
+        "conditions": [
+            "ego, approaching, crossing"
+        ]
+    },
+    {
+        "id": 58,
+        "UKRuleid": "Rule 170",
+        "action": "drive_carefully_and_slowly",
+        "conditions": [
+            "ego, turning, at_junction"
+        ]
+    },
+    {
+        "id": 59,
+        "UKRuleid": "Rule 202",
+        "action": "drive_carefully_and_slowly",
+        "conditions": [
+            "ego, is, reversing"
+        ]
+    },
+    {
+        "id": 60,
+        "UKRuleid": "Rule 19",
+        "action": "drive_carefully_and_slowly",
+        "conditions": [
+            "ego, approaching, flashing_amber_beacons"
+        ]
+    },
+    {
+        "id": 61,
+        "UKRuleid": "Rule 205",
+        "action": "drive_carefully_and_slowly",
+        "conditions": [
+            "ego, approaching, crossing",
+            "vulnerable_road_user, status, has_passed_crossing"
+        ]
+    },
+    {
+        "id": 62,
+        "UKRuleid": "Defensive Driving",
+        "action": "reduce_speed",
+        "conditions": [
+            "road_user, very_close_to, ego"
+        ]
+    },
+    {
+        "id": 63,
+        "UKRuleid": "Defensive Driving",
+        "action": "reduce_speed",
+        "conditions": [
+            "ego, in, congestion"
+        ]
+    },
+    {
+        "id": 64,
+        "UKRuleid": "Default Behaviour",
+        "action": "maintain_speed",
+        "conditions": [
+            "no_condition"
+        ]
+    },
+    {
+        "id": 65,
+        "UKRuleid": "Common Sense",
+        "action": "start",
+        "conditions": [
+            "ego, previous_status, stop",
+            "ego, status, move_off"
+        ]
+    },
+    {
+        "id": 66,
+        "UKRuleid": "Priority Rule H1",
+        "action": "Safety_Action MUST be_taken",
+        "conditions": [
+            "Safety_Rule IS violated",
+            "Any_Other_Rule IS followed"
+        ]
+    },
+    {
+        "id": 67,
+        "UKRuleid": "Priority Rule 109",
+        "action": "Rule A HAS higher_priority_than Rule B",
+        "conditions": [
+            "Rule A IS Traffic_Light_Rule",
+            "Rule B IS Uncontrolled_Junction_Rule"
+        ]
+    },
+    {
+        "id": 68,
+        "UKRuleid": "Priority Rule 109",
+        "action": "Rule A HAS higher_priority_than Rule B",
+        "conditions": [
+            "Rule A IS Traffic_Filter_Arrow_Rule",
+            "Rule B IS Traffic_Light_Rule"
+        ]
+    }
+]

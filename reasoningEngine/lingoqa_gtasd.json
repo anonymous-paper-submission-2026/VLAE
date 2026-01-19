@@ -1,0 +1,600 @@
+{
+    "990fbf8f0b48da3a82613643b3827aa4": {
+        "situation": [
+            "(ego, at, junction)",
+            "(ego, has_not_crossed, white_line)",
+            "(ego, approaching, vulnerable_road_user)"
+        ],
+        "control_device": [
+            "(traffic_light, relevant, red, red)",
+            "(traffic_filter_arrow_straight, relevant, green, green)",
+            "(traffic_filter_arrow_left, relevant, green, green)"
+        ],
+        "road_user": [
+            "(scooter, same_lane_front_relevant, moving_forward, moving_forward)",
+            "(cyclist, same_lane_front_relevant, moving_forward, moving_forward)",
+            "(pedestrian, left_sidewalk, stopped, stopped)",
+            "(bus, right_lane_oncoming_direction, moving_forward, moving_forward)"
+        ],
+        "intention": [
+            "(ego, turn_left)"
+        ]
+    },
+    "78bda9041fc31a77da224df63f6b8cd0": {
+        "situation": [
+            "(ego, at, junction)",
+            "(ego, in, residential_area)",
+            "(ego, passing, crossing)"
+        ],
+        "control_device": [
+            "(traffic_light, relevant, green, green)",
+            "(speed_limit_marking, status, exist, exist)"
+        ],
+        "road_user": [
+            "(car, same_lane_front_of, moving_forward, invisible)",
+            "(car, same_lane_front_of, moving_forward, moving_forward)",
+            "(bus, right_lane_oncoming_direction, moving_forward, invisible)",
+            "(pedestrian, right_sidewalk, stopped, stopped)",
+            "(cyclist, right_lane_oncoming_direction, moving_forward, invisible)",
+            "(van, far_away, moving_forward, moving_forward)",
+            "(scooter, far_away, moving_forward, moving_forward)"
+        ],
+        "intention": [
+            "(ego, moving_forward)"
+        ]
+    },
+    "827bde02296744ffb57736407065478d": {
+        "situation": [
+            "(ego, in, residential_area)",
+            "(ego, in, busy_road)",
+            "(ego, in, congestion)",
+            "(ego, approaching, vulnerable_road_user)"
+        ],
+        "control_device": [
+            "(speed_limit_marking, relevant, exist, exist)"
+        ],
+        "road_user": [
+            "(motorcyclist, same_lane_front_relevant, moving_forward, moving_forward)",
+            "(van, same_lane_front_relevant, moving_forward, stopped)",
+            "(truck, same_lane_front_relevant, moving_forward, stopped)",
+            "(cyclist, left_lane, moving_forward, moving_forward)",
+            "(car, right_lane_same_direction, invisible, stopped)",
+            "(pedestrian, right_sidewalk, moving_forward, moving_forward)"
+        ],
+        "intention": [
+            "(ego, moving_forward)"
+        ]
+    },
+    "0f54dedab4ab997e8cdf97c570146292": {
+        "situation": [
+            "(ego, in, residential_area)",
+            "(ego, approaching, pedestrians)",
+            "(ego, approaching, junction)",
+            "(ego, approaching, crossing)"
+        ],
+        "control_device": [
+            "(traffic_light, relevant, green, green)"
+        ],
+        "road_user": [
+            "(bus, same_lane_front_of, moving_forward, moving_forward)",
+            "(pedestrian, in_front_of, is_crossing, is_crossing)",
+            "(cyclist, far_away, moving_forward, moving_forward)"
+        ],
+        "intention": [
+            "(ego, moving_forward)"
+        ]
+    },
+    "a1109658670fb29d13ac113d322c004c": {
+        "situation": [
+            "(ego, in, residential_area)",
+            "(ego, approaching, junction)"
+        ],
+        "control_device": [
+            "(traffic_light, relevant, red, red)",
+            "(speed_limit_marking, relevant, exist, exist)"
+        ],
+        "road_user": [
+            "(van, right_lane_oncoming_direction, moving_forward, moving_forward)",
+            "(car, right_lane_oncoming_direction, moving_forward, invisible)",
+            "(motorcyclist, right_lane_oncoming_direction, moving_forward, invisible)",
+            "(pedestrian, right_sidewalk, stopped, invisible)"
+        ],
+        "intention": [
+            "(ego, moving_forward)"
+        ]
+    },
+    "16ac40a0f73c04115c5ab188d7922491": {
+        "situation": [
+            "(ego, at, junction)",
+            "(ego, in, residential_area)",
+            "(ego, is, stopped)"
+        ],
+        "control_device": [
+            "(traffic_light, relevant, red, green)"
+        ],
+        "road_user": [
+            "(van, left_lane, stopped, moving_forward)",
+            "(cyclist, in_front_of, stopped, moving_forward)",
+            "(cyclist, in_front_of, stopped, moving_forward)",
+            "(bus, far_away, moving_forward, moving_forward)",
+            "(pedestrian, left_sidewalk, walk_away, walk_away)"
+        ],
+        "intention": [
+            "(ego, moving_forward)"
+        ]
+    },
+    "ee230014b451c96aa1e690f112ed6738": {
+        "situation": [
+            "(ego, at, junction)",
+            "(ego, in, residential_area)",
+            "(ego, approaching, pedestrains)",
+            "(ego, passing, parked_cars)"
+        ],
+        "control_device": [
+            "(speed_limit_marking, relevant, exist, exist)"
+        ],
+        "road_user": [
+            "(car, main_road_perpendicular_direction, moving_forward, invisible)",
+            "(pedestrian, main_road_perpendicular_direction, going_straight, going_straight)",
+            "(scooter, main_road_perpendicular_direction, moving_forward, moving_forward)"
+        ],
+        "intention": [
+            "(ego, moving_forward)"
+        ]
+    },
+    "40d730969d4fd2469790189ae721bd10": {
+        "situation": [
+            "(ego, approaching, crossing)",
+            "(ego, approaching, pedestrains)",
+            "(ego, in, residential_area)",
+            "(ego, approaching, flashing_amber_beacons)",
+            "(ego, is, stopped)"
+        ],
+        "control_device": [
+            "(flashing_amber_beacons, relevant, exist, exist)"
+        ],
+        "road_user": [
+            "(pedestrian, in_front_of, is_crossing, is_crossing)",
+            "(truck, right_lane_same_direction, stopped, stopped)",
+            "(car, different_lane_front_of, moving_forward, moving_forward)"
+        ],
+        "intention": [
+            "(ego, moving_forward)"
+        ]
+    },
+    "43e53c341ab5aae565705dede4de87ab": {
+        "situation": [
+            "(ego, in, residential_area)",
+            "(ego, approaching, crossing)",
+            "(ego, approaching, flashing_amber_beacons)"
+        ],
+        "control_device": [
+            "(flashing_amber_beacons, relevant, amber, amber)"
+        ],
+        "road_user": [
+            "(van, far_away, stopped, stopped)",
+            "(pedestrian, left_sidewalk, moving_forward, moving_forward)",
+            "(pedestrian, right_sidewalk, moving_forward, moving_forward)"
+        ],
+        "intention": [
+            "(ego, moving_forward)"
+        ]
+    },
+    "45b587bf54ee9db25085eb483cac242e": {
+        "situation": [
+            "(ego, approaching, junction)",
+            "(ego, approaching, crossing)",
+            "(ego, in, residential_area)",
+            "(ego, approaching, vulnerable_road_user)",
+            "(ego, passing, parked_cars)"
+        ],
+        "control_device": [
+            "(flashing_amber_beacons, relevant, exist, exist)"
+        ],
+        "road_user": [
+            "(pedestrian, in_front_of, is_crossing, walk_away)",
+            "(cyclist, in_front_of, is_crossing, is_crossing)",
+            "(pedestrian, left_sidewalk, walk_away, invisible)",
+            "(pedestrian, main_road_perpendicular_direction, moving_forward, moving_forward)",
+            "(truck, far_away, stopped, stopped)",
+            "(van, far_away, stopped, stopped)"
+        ],
+        "intention": [
+            "(ego, moving_forward)"
+        ]
+    },
+    "3561e15b7feb2e922e9c962754f75dde": {
+        "situation": [
+            "(ego, in, buildup_area)",
+            "(ego, approaching, crossing)",
+            "(ego, approaching, flashing_amber_beacons)"
+        ],
+        "control_device": [
+            "(flashing_amber_beacons, relevant, exist, exist)"
+        ],
+        "road_user": [
+            "(pedestrian, in_front_of, is_crossing, has_passed_crossing)",
+            "(cyclist, right_lane_same_direction, moving_forward, moving_forward)",
+            "(car, right_lane_oncoming_direction, moving_forward, moving_forward)",
+            "(van, right_lane_oncoming_direction, moving_forward, moving_forward)",
+            "(pedestrian, left_sidewalk, walk_away, waiting_to_cross)"
+        ],
+        "intention": [
+            "(ego, moving_forward)"
+        ]
+    },
+    "94dee4a9b5603e9cbac8c2444d6cda6e": {
+        "situation": [
+            "(ego, at, junction)",
+            "(ego, in, residential_area)",
+            "(ego, has_crossed, white_line)"
+        ],
+        "control_device": [
+            "(traffic_filter_arrow_straight, relevant, green, green)"
+        ],
+        "road_user": [
+            "(cyclist, in_front_of, stopped, moving_forward)",
+            "(cyclist, in_front_of, stopped, moving_forward)",
+            "(cyclist, far_away, moving_forward, moving_forward)",
+            "(scooter, right_lane_oncoming_direction, moving_forward, moving_forward)"
+        ],
+        "intention": [
+            "(ego, moving_forward)"
+        ]
+    },
+    "e07246bab040227c8561572a226333d5": {
+        "situation": [
+            "(ego, at, junction)",
+            "(ego, passing, crossing)",
+            "(ego, in, buildup_area)",
+            "(ego, in, residential_area)"
+        ],
+        "control_device": [
+            "(traffic_light, relevant, green, green)"
+        ],
+        "road_user": [
+            "(car, same_lane_front_of, moving_forward, moving_forward)",
+            "(scooter, same_lane_front_of, moving_forward, moving_forward)",
+            "(pedestrian, left_sidewalk, stopped, stopped)",
+            "(pedestrian, right_sidewalk, walk_away, walk_away)",
+            "(bus, far_away, stopped, moving_forward)"
+        ],
+        "intention": [
+            "(ego, moving_forward)"
+        ]
+    },
+    "f294651150b7727859aaf5d0e3ab9f2e": {
+        "situation": [
+            "(ego, at, junction)",
+            "(ego, in, buildup_area)",
+            "(ego, has_not_crossed, white_line)"
+        ],
+        "control_device": [
+            "(traffic_light, relevant, green, green)"
+        ],
+        "road_user": [
+            "(car, same_lane_front_of, moving_forward, moving_forward)",
+            "(motorcyclist, same_lane_front_of, moving_forward, moving_forward)",
+            "(van, right_lane_same_direction, moving_forward, moving_forward)",
+            "(pedestrian, left_sidewalk, walk_away, walk_away)",
+            "(scooter, in_front_of, moving_forward, turn_left)"
+        ],
+        "intention": [
+            "(ego, moving_forward)"
+        ]
+    },
+    "04c64714f8a1bf28da156721ed7eff32": {
+        "situation": [
+            "(ego, approaching, crossing)",
+            "(ego, approaching, flashing_amber_beacons)"
+        ],
+        "control_device": [
+            "(flashing_amber_beacons, relevant, exist, exist)",
+            "(road_works_ahead_sign, relevant, exist, exist)"
+        ],
+        "road_user": [
+            "(car, same_lane_front_of, moving_forward, moving_forward)",
+            "(van, right_lane_oncoming_direction, moving_forward, moving_forward)",
+            "(pedestrian, left_sidewalk, walk_away, invisible)"
+        ],
+        "intention": [
+            "(ego, moving_forward)"
+        ]
+    },
+    "2506f1593774d92c0e46c61a8b6fb61e": {
+        "situation": [
+            "(ego, in, buildup_area)",
+            "(ego, approaching, crossing)"
+        ],
+        "control_device": [
+            "(flashing_amber_beacons, relevant, exist, exist)"
+        ],
+        "road_user": [
+            "(car, same_lane_front_relevant, moving_forward, moving_forward)",
+            "(van, right_lane_same_direction, stopped, stopped)",
+            "(pedestrian, left_sidewalk, walk_away, walk_away)"
+        ],
+        "intention": [
+            "(ego, moving_forward)"
+        ]
+    },
+    "97a2a11eb970cb429cf1cf8457123fab": {
+        "situation": [
+            "(ego, in, buildup_area)",
+            "(ego, passing, parked_vehicles)",
+            "(ego, approaching, vulnerable_road_user)"
+        ],
+        "control_device": [
+            "(speed_limit_marking, relevant, exist, exist)"
+        ],
+        "road_user": [
+            "(cyclist, same_lane_front_of, moving_forward, moving_forward)",
+            "(van, left_lane, stopped, stopped)",
+            "(car, left_lane, stopped, stopped)",
+            "(cyclist, right_lane_oncoming_direction, moving_forward, moving_forward)"
+        ],
+        "intention": [
+            "(ego, moving_forward)"
+        ]
+    },
+    "ab4845470b41f0e123da50c996c35745": {
+        "situation": [
+            "(ego, is, stopped)",
+            "(ego, at, junction)",
+            "(ego, in, buildup_area)",
+            "(ego, has_not_crossed, white_line)",
+            "(ego, approaching, crossing)"
+        ],
+        "control_device": [
+            "(traffic_light, relevant, red, red)"
+        ],
+        "road_user": [
+            "(car, same_lane_front_of, stopped, stopped)",
+            "(pedestrian, in_front_of, is_crossing, is_crossing)",
+            "(pedestrian, in_front_of, is_crossing, walk_away)",
+            "(motorcyclist, far_away, moving_forward, moving_forward)",
+            "(bus, far_away, stopped, stopped)"
+        ],
+        "intention": [
+            "(ego, stop)"
+        ]
+    },
+    "f376bb31c1f1f01cb9aa5c2887800ab1": {
+        "situation": [
+            "(ego, in, buildup_area)",
+            "(ego, approaching, junction)",
+            "(ego, in, busy_road)",
+            "(ego, in, congestion)"
+        ],
+        "control_device": [
+            "(traffic_light, relevant, green, green)",
+            "(speed_limit_marking, relevant, exist, exist)"
+        ],
+        "road_user": [
+            "(car, in_front_of, stopped, moving_forward)",
+            "(van, left_lane, stopped, moving_forward)",
+            "(bus, right_lane_oncoming_direction, moving_forward, invisible)",
+            "(truck, right_lane_oncoming_direction, moving_forward, moving_forward)",
+            "(bus, right_lane_oncoming_direction, moving_forward, moving_forward)",
+            "(motorcyclist, right_lane_oncoming_direction, moving_forward, moving_forward)",
+            "(pedestrian, left_sidewalk, walk_away, walk_away)"
+        ],
+        "intention": [
+            "(ego, moving_forward)"
+        ]
+    },
+    "d082bdc55d81a79652063c87996514aa": {
+        "situation": [
+            "(ego, in, buildup_area)",
+            "(ego, in, busy_road)",
+            "(ego, in, congestion)"
+        ],
+        "control_device": [
+            "(traffic_light, relevant, green, green)",
+            "(speed_limit_marking, status, exist, exist)"
+        ],
+        "road_user": [
+            "(bus, left_lane, moving_forward, moving_forward)",
+            "(bus, same_lane_front_relevant, moving_forward, moving_forward)",
+            "(truck, far_away, moving_forward, moving_forward)"
+        ],
+        "intention": [
+            "(ego, moving_forward)"
+        ]
+    },
+    "ddabf1e10d3aa1c5eeee62063fccf692": {
+        "situation": [
+            "(ego, in, busy_road)",
+            "(ego, passing, parked_vehicles)",
+            "(ego, in, congestion)",
+            "(ego, approaching, cyclist)"
+        ],
+        "control_device": [],
+        "road_user": [
+            "(bus, same_lane_front_relevant, moving_forward, moving_forward)",
+            "(cyclist, same_lane_front_relevant, moving_forward, moving_forward)",
+            "(truck, left_lane, stopped, stopped)",
+            "(van, left_lane, stopped, stopped)",
+            "(car, left_lane, stopped, stopped)",
+            "(car, right_lane_oncoming_direction, moving_forward, moving_forward)"
+        ],
+        "intention": [
+            "(ego, moving_forward)"
+        ]
+    },
+    "556f9177eda8301534e145f1d2287736": {
+        "situation": [
+            "(ego, is, stopped)",
+            "(ego, at, junction)",
+            "(ego, approaching, crossing)"
+        ],
+        "control_device": [
+            "(traffic_light, relevant, red, red)"
+        ],
+        "road_user": [
+            "(van, left_lane, stopped, stopped)",
+            "(pedestrian, in_front_of, to_pedestrain_crossing, is_crossing)"
+        ],
+        "intention": [
+            "(ego, turn_right)"
+        ]
+    },
+    "dad2e5f536e0c7a91e4929405eeb19da": {
+        "situation": [
+            "(ego, approaching, junction)",
+            "(ego, passing, bus_stop)",
+            "(ego, in, congestion)"
+        ],
+        "control_device": [
+            "(traffic_light, relevant, green, green)",
+            "(speed_limit_marking, relevant, exist, exist)"
+        ],
+        "road_user": [
+            "(truck, right_lane_same_direction, moving_forward, moving_forward)",
+            "(bus, left_lane, stopped, stopped)",
+            "(road_user, same_lane_front_relevant, exist, exist)",
+            "(cyclist, left_lane, moving_forward, moving_forward)",
+            "(oncoming_traffic, right_lane_oncoming_direction, moving_forward, invisible)",
+            "(car, left_lane, stopped, stopped)"
+        ],
+        "intention": [
+            "(ego, moving_forward)"
+        ]
+    },
+    "9a4487ea65f5fc2dd9afccc5bfa5d329": {
+        "situation": [
+            "(ego, has_passed, junction)"
+        ],
+        "control_device": [
+            "(traffic_light, relevant, red, green)"
+        ],
+        "road_user": [
+            "(cyclist, same_lane_relevant, moving_forward, moving_forward)",
+            "(cyclist, same_lane_relevant, invisible, moving_forward)",
+            "(pedestrian, left_sidewalk, stopped, stopped)"
+        ],
+        "intention": [
+            "(ego, moving_forward)"
+        ]
+    },
+    "8acfd91fc5488115f4a96cfb9901b35c": {
+        "situation": [
+            "(ego, approaching, junction)",
+            "(ego, in, busy_road)",
+            "(ego, has_not_crossed, white_line)",
+            "(ego, approaching, crossing)",
+            "(ego, in, congestion)"
+        ],
+        "control_device": [
+            "(traffic_light, relevant, green, green)"
+        ],
+        "road_user": [
+            "(van, same_lane_relevant, moving_forward, moving_forward)",
+            "(motorcyclist, right_lane_oncoming_direction, moving_forward, moving_forward)",
+            "(cyclist, left_lane, moving_forward, moving_forward)",
+            "(pedestrian, left_sidewalk, stopped, stopped)"
+        ],
+        "intention": [
+            "(ego, moving_forward)"
+        ]
+    },
+    "a92897f3de30fa1578ddf84dbf708ebe": {
+        "situation": [
+            "(ego, at, junction)",
+            "(ego, has_crossed, white_line)",
+            "(ego, approaching, crossing)"
+        ],
+        "control_device": [
+            "(traffic_light, relevant, green, green)"
+        ],
+        "road_user": [
+            "(truck, left_lane, moving_forward, moving_forward)",
+            "(car, same_lane_relevant, moving_forward, invisible)",
+            "(truck, different_lane_front_of, is_crossing, invisible)",
+            "(pedestrian, left_sidewalk, stopped, stopped)",
+            "(pedestrian, right_sidewalk, stopped, stopped)"
+        ],
+        "intention": [
+            "(ego, moving_forward)"
+        ]
+    },
+    "852232e46c71d346dcb9f223647c0970": {
+        "situation": [
+            "(ego, at, junction)",
+            "(ego, has_crossed, white_line)",
+            "(ego, approaching, flashing_amber_beacons)",
+            "(ego, approaching, crossing)"
+        ],
+        "control_device": [
+            "(traffic_light, relevant, green, green)",
+            "(speed_limit_marking, relevant, exist, exist)"
+        ],
+        "road_user": [
+            "(car, same_lane_relevant, moving_forward, moving_forward)",
+            "(truck, right_lane_oncoming_direction, moving_forward, invisible)",
+            "(cyclist, right_lane_oncoming_direction, moving_forward, invisible)",
+            "(pedestrian, left_sidewalk, walk_away, walk_away)",
+            "(pedestrian, left_sidewalk, moving_forward, stopped)"
+        ],
+        "intention": [
+            "(ego, moving_forward)"
+        ]
+    },
+    "0c137e4925941da4553d0ce02ab9c770": {
+        "situation": [
+            "(ego, in, residential_area)",
+            "(ego, approaching, traffic_calming_measures)",
+            "(ego, approaching, crossing)"
+        ],
+        "control_device": [],
+        "road_user": [
+            "(cyclist, same_lane_relevant, moving_forward, moving_forward)",
+            "(cyclist, in_front_of, is_crossing, is_crossing)",
+            "(car, right_lane_same_direction, stopped, stopped)"
+        ],
+        "intention": [
+            "(ego, moving_forward)"
+        ]
+    },
+    "192ddf6ced03be1ea37e716d960eb1d4": {
+        "situation": [
+            "(ego, is, stopped)",
+            "(ego, at, junction)",
+            "(ego, has_not_crossed, white_line)",
+            "(ego, approaching, crossing)"
+        ],
+        "control_device": [
+            "(traffic_light, relevant, red, red)"
+        ],
+        "road_user": [
+            "(car, same_lane_relevant, stopped, stopped)",
+            "(van, left_lane, moving_forward, moving_forward)",
+            "(bus, left_lane, stopped, stopped)",
+            "(pedestrian, in_front_of, is_crossing, is_crossing)",
+            "(van, different_lane_front_of, stopped, stopped)",
+            "(car, left_lane, stopped, stopped)"
+        ],
+        "intention": [
+            "(ego, moving_forward)"
+        ]
+    },
+    "f6d832c4b3279c6491278500918e792e": {
+        "situation": [
+            "(ego, approaching, pedestrains)",
+            "(ego, approaching, crossing)"
+        ],
+        "control_device": [
+            "(traffic_light, relevant, green, green)",
+            "(speed_limit_marking, relevant, exist, exist)"
+        ],
+        "road_user": [
+            "(car, same_lane_relevant, moving_forward, moving_forward)",
+            "(bus, right_lane_oncoming_direction, moving_forward, invisible)",
+            "(pedestrian, in_front_of, is_crossing, is_crossing)",
+            "(car, far_away, moving_forward, moving_forward)"
+        ],
+        "intention": [
+            "(ego, moving_forward)"
+        ]
+    }
+}

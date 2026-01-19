@@ -1,0 +1,41 @@
+{
+    "moving_forward": [
+        "reduce_speed",
+        "drive_carefully_and_slowly",
+        "maintain_speed",
+        "proceed",
+        "drive_at_slow_speed_brake_and_accelerate_gently",
+        "slow_down_and_not_overtaking",
+        "start",
+        "move_off"
+    ],
+    "turn_left": [
+        "give_signal, wait_for_suitable_gap_before_move_off, watch_out_for_vulnerable_road_users"
+    ],
+    "turn_right": [
+        "give_signal, wait_for_suitable_gap_before_move_off, watch_out_for_vulnerable_road_users"
+    ],
+    "stop": [
+        "stop_at_white_line",
+        "stop_behind_white_line",
+        "stop_at_second_white_line",
+        "stop_at_first_white_line",
+        "wait_for_suitable_gap_before_move_off, watch_out_for_vulnerable_road_users",
+        "not_enter_box_junction"
+    ],
+    "park": [
+        "cannot_park_on_zig-zag lines",
+        "not_drive_or_park_in_cycle_lane"
+    ],
+    "move_off": [
+        "wait_for_suitable_gap_before_move_off, watch_out_for_vulnerable_road_users",
+        "start",
+        "moving_forward"
+    ],
+    "start": [
+        "wait_for_suitable_gap_before_move_off, watch_out_for_vulnerable_road_users",
+        "move_off",
+        "moving_forward"
+    ]
+    
+}
