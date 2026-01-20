@@ -28,5 +28,5 @@ To replicate the main neuro-symbolic results:
     python it_check.py --save_it_path [save_path.json] --image_dir [image_dir] --scene [scene_description.json] --rules     [rules.json] -model_name [model_name]
     ```
 
-3.  **Dataset:**
-    `dataset/` contains the necessary data split sufficient to run our experiments and reproduce the results.
+3.  **Experiments:**
+    `experiments/` contains the necessary scripts to run the experiments for generating the actions, explanations, summaries, and reasoning paths. It requires an AI API Key.
