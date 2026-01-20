@@ -28,9 +28,5 @@ To replicate the main neuro-symbolic results:
     python it_check.py --save_it_path [save_path.json] --image_dir [image_dir] --scene [scene_description.json] --rules     [rules.json] -model_name [model_name]
     ```
 
-3.  **Evaluate:**
-    Scripts for automatic evaluation are located in the `experiments/` folder.
-
-## Data
-
-The raw video files for LingoQA and RobotCar are not included. However, `dataset/` contains the necessary data split sufficient to run our experiments and reproduce the results.
+3.  **Dataset:**
+    `dataset/` contains the necessary data split sufficient to run our experiments and reproduce the results.
